@@ -1,0 +1,17 @@
+.container {
+	    float: left;
+
+        position: relative;
+        top: 10;
+        left: 10;
+
+        width: 250px;
+        height: 250px;
+        
+        margin: 10px;
+        padding: 10px;
+
+        border-radius: 5px;
+	    background-color: rgb(23, 217, 250);
+}
+

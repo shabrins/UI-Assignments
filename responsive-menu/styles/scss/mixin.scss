@@ -1,0 +1,22 @@
+@mixin menu-background($color, $menu-gradient: true) {
+	background-color: $color;
+	@if $menu-gradient == true {
+		@include background-image(linear-gradient(rgba(155, 155, 155, .2),
+												  rgba(255, 255, 255, 0)));
+	}
+	@else {
+		background-image: none;
+	}	
+}
+
+
+@mixin pseudo-triangle($size, $shift-left) {
+	&:after {
+		content: '';
+		position: absolute;
+		left: $shift-left * $gutter;
+		top: -$size * 2;
+		border: $size solid transparent;
+		border-bottom-color: inherit;
+	}
+}

@@ -1,0 +1,53 @@
+/*
+Syntax error: File to import not found or unreadable: compass/css3.
+              Load path: d:/Shabrin-UIDev/assignments/responsive-menu
+        on line 1 of styles/scss/main.scss
+
+1: @import "compass/css3";
+2: @import "variables";
+3: @import "mixin.scss";
+4: 
+5: .menu {
+6: 	font: bold 13px Arial, Helvetica;
+
+Backtrace:
+styles/scss/main.scss:1
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/import_node.rb:67:in `rescue in import'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/import_node.rb:45:in `import'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/import_node.rb:28:in `imported_file'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/import_node.rb:37:in `css_import?'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:217:in `visit_import'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `map'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:53:in `visit_children'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:109:in `block in visit_children'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:121:in `with_environment'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:108:in `visit_children'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `block in visit'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:128:in `visit_root'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/base.rb:37:in `visit'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:100:in `visit'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/visitors/perform.rb:7:in `visit'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/tree/root_node.rb:20:in `render'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:315:in `_render'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/engine.rb:262:in `render'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:362:in `update_stylesheet'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:203:in `block in update_stylesheets'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:201:in `each'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:201:in `update_stylesheets'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin/compiler.rb:235:in `watch'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/plugin.rb:107:in `method_missing'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/exec.rb:463:in `watch_or_update'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/exec.rb:326:in `process_result'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/exec.rb:41:in `parse'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/lib/sass/exec.rb:21:in `parse!'
+c:/Ruby/lib/ruby/gems/2.0.0/gems/sass-3.2.13/bin/sass:13:in `<top (required)>'
+c:/Ruby/bin/sass:23:in `load'
+c:/Ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Syntax error: File to import not found or unreadable: compass/css3.\A               Load path: d:/Shabrin-UIDev/assignments/responsive-menu\A         on line 1 of styles/scss/main.scss\A \A 1: @import \"compass/css3\";\A 2: @import \"variables\";\A 3: @import \"mixin.scss\";\A 4: \A 5: .menu {\A 6: 	font: bold 13px Arial, Helvetica;"; }
